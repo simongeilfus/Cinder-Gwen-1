@@ -82,7 +82,6 @@ void GwenTestApp::setup()
 
 void GwenTestApp::addUnitTest()
 {
-	// Create our unittest control (which is a Window with controls in it)
 	UnitTest* pUnit = new UnitTest( mCanvas );
 	pUnit->SetPos( 10, 10 );
 }
