@@ -108,10 +108,12 @@ void GwenTestApp::openWindow()
 {
 //	auto window = new Gwen::Controls::WindowControl( mCanvas );
 	auto window = new CustomWindow( mCanvas );
-	window->SetTitle( L"Custom Window" );
-	window->SetSize( 300 + rand() % 200, 300 + rand() % 200 );
-	window->SetPos( rand() % 700, rand() % 400 );
+	window->SetTitle( L"CustomWindow" );
+	window->SetSize( 400, 400 );
+	window->SetPos( 200, 200 );
 	window->SetDeleteOnClose( true );
+	window->SetClampMovement( false );
+	console() << "GetClampMovement: " << window->GetClampMovement() << endl;
 }
 
 void GwenTestApp::update()
