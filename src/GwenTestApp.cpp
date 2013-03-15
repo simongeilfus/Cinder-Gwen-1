@@ -112,7 +112,6 @@ void GwenTestApp::openWindow()
 	window->SetPos( 200, 200 );
 	window->SetDeleteOnClose( true );
 	window->SetClampMovement( false );
-	console() << "GetClampMovement: " << window->GetClampMovement() << endl;
 
 	auto control = new CustomControl( window );
 	control->SetPos( 0, 0 );
@@ -130,4 +129,4 @@ void GwenTestApp::draw()
 	mCanvas->RenderCanvas();
 }
 
-CINDER_APP_NATIVE( GwenTestApp, RendererGl )
+CINDER_APP_NATIVE( GwenTestApp, RendererGl( RendererGl::AA_MSAA_4 ) )
