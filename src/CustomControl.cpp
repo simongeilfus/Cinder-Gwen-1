@@ -14,7 +14,7 @@ CustomControl::CustomControl( Gwen::Controls::Base *parent )
 
 void CustomControl::Render( Skin::Base* skin )
 {
-	Gwen::Point pos = LocalPosToCanvas();
+	Vec2f pos( cigwen::fromGwen( LocalPosToCanvas() ) );
 	ci::Rectf bounds( cigwen::fromGwen( GetBounds() ) );
 	float aspect = (float)m_InnerBounds.w / (float)m_InnerBounds.h;
 
@@ -22,10 +22,10 @@ void CustomControl::Render( Skin::Base* skin )
 
 	gl::pushMatrices();
 
-	gl::translate( pos.x, pos.y );
+	gl::translate( pos );
 	float yOffset = 10;
 	float yHeight = 20;
-	gl::drawString( std::string( "pos: " ) + ci::toString( pos.x ) + "-" + ci::toString( pos.y ), Vec2f( 10, yOffset ), ci::Color::black() );		yOffset += yHeight;
+	gl::drawString( std::string( "pos: " ) + ci::toString( pos ), Vec2f( 10, yOffset ), ci::Color::black() );		yOffset += yHeight;
 	gl::drawString( std::string( "bounds: " ) + ci::toString( bounds ), Vec2f( 10, yOffset ), ci::Color::black() );		yOffset += yHeight;
 	gl::drawString( std::string( "aspect: " ) + ci::toString( aspect ), Vec2f( 10, yOffset ), ci::Color::black() );		yOffset += yHeight;
 
