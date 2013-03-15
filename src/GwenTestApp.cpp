@@ -107,7 +107,7 @@ void GwenTestApp::addControls()
 void GwenTestApp::openWindow()
 {
 	auto window = new Gwen::Controls::WindowControl( mCanvas );
-	window->SetTitle( L"This is CustomControl" );
+	window->SetTitle( "This is CustomControl" );
 	window->SetSize( 400, 400 );
 	window->SetPos( 200, 200 );
 	window->SetDeleteOnClose( true );

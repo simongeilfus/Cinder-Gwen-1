@@ -2,7 +2,7 @@
 <cinder>
 <block
 	name="Gwen"
-	id="org.libcinder.gwen"
+	id="org.rte.gwen"
 	author="Garry Newman (block: Richard Eakin)"
 	license="MIT"
 	summary="GWEN (GUI Without Extravagant Nonsense) for Cinder."
