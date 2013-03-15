@@ -131,6 +131,7 @@
 		1117B24D16F171E0002D6AC0 /* GwenInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GwenInput.h; sourceTree = "<group>"; };
 		1117B25016F171E0002D6AC0 /* GwenRendererGl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GwenRendererGl.cpp; sourceTree = "<group>"; };
 		1117B25116F171E0002D6AC0 /* GwenRendererGl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GwenRendererGl.h; sourceTree = "<group>"; };
+		11457B7D16F2CFF300DE8C01 /* CinderGwen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CinderGwen.h; sourceTree = "<group>"; };
 		1424186916F21C0D00FF4128 /* UnitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitTest.h; sourceTree = "<group>"; };
 		1424187416F21F6A00FF4128 /* Align.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Align.h; sourceTree = "<group>"; };
 		1424187516F21F6A00FF4128 /* Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anim.h; sourceTree = "<group>"; };
@@ -414,6 +415,7 @@
 				1117B24D16F171E0002D6AC0 /* GwenInput.h */,
 				1117B25016F171E0002D6AC0 /* GwenRendererGl.cpp */,
 				1117B25116F171E0002D6AC0 /* GwenRendererGl.h */,
+				11457B7D16F2CFF300DE8C01 /* CinderGwen.h */,
 			);
 			name = cigwen;
 			path = ../src/cigwen;

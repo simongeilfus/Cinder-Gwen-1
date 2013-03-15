@@ -2,6 +2,8 @@
 // Created by Richard Eakin
 
 #include "cigwen/GwenRendererGl.h"
+#include "cigwen/CinderGwen.h"
+
 #include "cinder/CinderMath.h"
 #include "cinder/gl/gl.h"
 #include "cinder/gl/Texture.h"
@@ -13,13 +15,10 @@
 #include "Gwen/Font.h"
 #include "Gwen/Texture.h"
 
+
 #define LOG_V std::cout << __PRETTY_FUNCTION__ << " | "
 
 using namespace ci;
-
-namespace  {
-	Rectf fromGwen( const Gwen::Rect &r )	{ return Rectf( r.x, r.y, r.x + r.w, r.y + r.h ); }
-}
 
 namespace cigwen {
 
