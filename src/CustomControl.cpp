@@ -1,5 +1,5 @@
 
-#include "CustomWindow.h"
+#include "CustomControl.h"
 #include "cinder/gl/gl.h"
 #include "cinder/Utilities.h"
 
@@ -8,39 +8,33 @@
 using namespace Gwen;
 using namespace ci;
 
+CustomControl::CustomControl( Gwen::Controls::Base *parent )
+: Controls::Base( parent, "cigwen sample CustomControl" )
+{}
 
-GWEN_CONTROL_CONSTRUCTOR( CustomWindow )
+void CustomControl::Render( Skin::Base* skin )
 {
-}
-
-void CustomWindow::Render( Skin::Base* skin )
-{
-	BaseClass::Render( skin );
-
-	ci::Rectf frame( m_Bounds.x + m_InnerBounds.x, m_Bounds.y + m_InnerBounds.y, m_InnerBounds.w, m_InnerBounds.h );
-	ci::Rectf bounds( cigwen::fromGwen( m_Bounds ) );
-	ci::Rectf innerBounds( cigwen::fromGwen( m_InnerBounds ) );
-
+	Gwen::Point pos = LocalPosToCanvas();
+	ci::Rectf bounds( cigwen::fromGwen( GetBounds() ) );
 	float aspect = (float)m_InnerBounds.w / (float)m_InnerBounds.h;
 
 	mCubeRotation.rotate( Vec3f( 1, 1, 1 ), 0.03f );
 
 	gl::pushMatrices();
 
-	gl::translate( frame.x1, frame.y1 );
+	gl::translate( pos.x, pos.y );
 	float yOffset = 10;
 	float yHeight = 20;
-	gl::drawString( std::string( "aspect: " ) + ci::toString( aspect ), Vec2f( 10, yOffset ), ci::Color::black() );		yOffset += yHeight;
-	gl::drawString( std::string( "frame: " ) + ci::toString( frame ), Vec2f( 10, yOffset ), ci::Color::black() );		yOffset += yHeight;
+	gl::drawString( std::string( "pos: " ) + ci::toString( pos.x ) + "-" + ci::toString( pos.y ), Vec2f( 10, yOffset ), ci::Color::black() );		yOffset += yHeight;
 	gl::drawString( std::string( "bounds: " ) + ci::toString( bounds ), Vec2f( 10, yOffset ), ci::Color::black() );		yOffset += yHeight;
-	gl::drawString( std::string( "innerBounds: " ) + ci::toString( innerBounds ), Vec2f( 10, yOffset ), ci::Color::black() );		yOffset += yHeight;
+	gl::drawString( std::string( "aspect: " ) + ci::toString( aspect ), Vec2f( 10, yOffset ), ci::Color::black() );		yOffset += yHeight;
 
 	//----------------------
 
 	gl::pushMatrices();
 
 	gl::color( ci::Color( 0, 1, 0 ) );
-	gl::drawSolidCircle( innerBounds.getCenter(), 20 );
+	gl::drawSolidCircle( bounds.getCenter(), 20 );
 
 //	gl::enableDepthRead();
 
@@ -101,7 +95,6 @@ void CustomWindow::Render( Skin::Base* skin )
 //
 //}
 
-void CustomWindow::RenderUnder( Skin::Base* skin )
+void CustomControl::RenderUnder( Skin::Base* skin )
 {
-	BaseClass::RenderUnder( skin );
 }

@@ -18,7 +18,7 @@
 #endif
 
 #include "cigwen/GwenInput.h"
-#include "CustomWindow.h"
+#include "CustomControl.h"
 
 #define SKIN_ASSET "DefaultSkin.png"
 //#define SKIN_ASSET "obscureskin.png"
@@ -74,8 +74,8 @@ void GwenTestApp::setup()
 
 	mGwenInput = cigwen::GwenInput::create( mCanvas );
 
-//	addControls();
-	addUnitTest();
+	addControls();
+//	addUnitTest();
 
 	gl::enableAlphaBlending();
 }
@@ -106,14 +106,17 @@ void GwenTestApp::addControls()
 
 void GwenTestApp::openWindow()
 {
-//	auto window = new Gwen::Controls::WindowControl( mCanvas );
-	auto window = new CustomWindow( mCanvas );
-	window->SetTitle( L"CustomWindow" );
+	auto window = new Gwen::Controls::WindowControl( mCanvas );
+	window->SetTitle( L"This is CustomControl" );
 	window->SetSize( 400, 400 );
 	window->SetPos( 200, 200 );
 	window->SetDeleteOnClose( true );
 	window->SetClampMovement( false );
 	console() << "GetClampMovement: " << window->GetClampMovement() << endl;
+
+	auto control = new CustomControl( window );
+	control->SetPos( 0, 0 );
+	control->Dock( Gwen::Pos::Fill );
 }
 
 void GwenTestApp::update()
