@@ -41,9 +41,13 @@ void CustomControlWindowApp::setup()
 {
 	getWindow()->setTitle( "Gwen CustomControlWindow" );
 
-	// TODO: map this to other systems or find a better way..
-	fs::path gwenBinPath = getAppPath().parent_path().parent_path().parent_path().parent_path().parent_path().parent_path() / "assets";
-	addAssetDirectory( gwenBinPath );
+	// TODO: find a better way..
+#if defined( CINDER_COCOA )
+	fs::path rootPath = getAppPath().parent_path().parent_path().parent_path().parent_path().parent_path().parent_path();
+#else
+	fs::path rootPath = getAppPath().parent_path().parent_path().parent_path().parent_path().parent_path();
+#endif
+	addAssetDirectory( rootPath / "assets" );
 
 	mRenderer = new cigwen::GwenRendererGl();
 	mRenderer->Init();
@@ -73,6 +77,7 @@ void CustomControlWindowApp::addControls()
 
 void CustomControlWindowApp::buttonPressed()
 {
+	// FIXME: crash on windows..
 	console() << "btn pressed" << endl;
 
 	auto window = new Gwen::Controls::WindowControl( mCanvas );
