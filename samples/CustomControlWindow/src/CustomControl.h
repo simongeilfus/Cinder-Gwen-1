@@ -7,6 +7,7 @@
 class CustomControl : public Gwen::Controls::Base {
 public:
 	CustomControl( Gwen::Controls::Base *parent );
+	virtual ~CustomControl();
 
 	virtual void Render( Gwen::Skin::Base* skin );
 	virtual void RenderUnder( Gwen::Skin::Base* skin );

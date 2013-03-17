@@ -1,0 +1,622 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{9BF663BF-3714-4A82-B487-74DFE17F318E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen">
+      <UniqueIdentifier>{27FC794D-BE54-40AC-9071-2877282D96CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\src">
+      <UniqueIdentifier>{ECD5C3E9-FDED-4821-9D87-9823085EC99F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\src\cigwen">
+      <UniqueIdentifier>{557F5D78-F69F-42E1-9E53-4AA50ADFBBB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib">
+      <UniqueIdentifier>{4AC314AE-5143-470F-A46F-13244AD030CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen">
+      <UniqueIdentifier>{76A61914-A5F2-45DE-97C0-39B1E11955FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen\gwen">
+      <UniqueIdentifier>{6E4ABDA9-F94B-4241-BB50-5FD7BD2B99D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen\gwen\include">
+      <UniqueIdentifier>{CCB831DE-1BE6-4A8A-9DC5-D572B77908A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen\gwen\include\Gwen">
+      <UniqueIdentifier>{710FCA9D-02B7-4E3C-9A12-3056F0C4AC4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls">
+      <UniqueIdentifier>{4C4B95D4-48AC-4AC3-B155-AE85C99D553E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Dialogs">
+      <UniqueIdentifier>{7556621D-6F06-490A-9543-C314F92A393C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Layout">
+      <UniqueIdentifier>{ADA0E68E-E623-45B3-A3ED-41B768195D08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Property">
+      <UniqueIdentifier>{F80C3E9A-DDC9-4A1C-972F-ACCC9E03076F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen\gwen\include\Gwen\Skins">
+      <UniqueIdentifier>{031A937F-FDE6-4DEA-89EA-59D42CC99D9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen\gwen\include\Gwen\Util">
+      <UniqueIdentifier>{3CEB64E6-3793-42A0-BD44-5205D042EF9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen\gwen\src">
+      <UniqueIdentifier>{72232DAC-4CF2-4A42-9350-D22585F5DDF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen\gwen\src\Controls">
+      <UniqueIdentifier>{545013B9-E4A3-4CA7-AEEF-B80D94B0CB9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Gwen\lib\gwen\gwen\src\Controls\Dialog">
+      <UniqueIdentifier>{C705C58F-C397-46DA-92B2-F13EDF9314C2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\CustomControlWindowApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CustomControlWindowApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\cigwen\CinderGwen.h">
+      <Filter>Blocks\Gwen\src\cigwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\cigwen\GwenInput.h">
+      <Filter>Blocks\Gwen\src\cigwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\cigwen\GwenRendererGl.h">
+      <Filter>Blocks\Gwen\src\cigwen</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\src\cigwen\CinderGwen.cpp">
+      <Filter>Blocks\Gwen\src\cigwen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\cigwen\GwenInput.cpp">
+      <Filter>Blocks\Gwen\src\cigwen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\cigwen\GwenRendererGl.cpp">
+      <Filter>Blocks\Gwen\src\cigwen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Align.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Anim.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\BaseRender.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Config.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\ControlList.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\DragAndDrop.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Events.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Exports.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Font.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Gwen.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Hook.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\InputHandler.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Macros.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Platform.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Skin.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Structures.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\TextObject.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Texture.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\ToolTip.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\UserData.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Utility.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\WindowProvider.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Base.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Button.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Canvas.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\CheckBox.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\CollapsibleCategory.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\CollapsibleList.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\ColorControls.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\ColorPicker.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\ComboBox.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\CrossSplitter.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\DockBase.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\DockedTabControl.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Dragger.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\FieldLabel.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\FilePicker.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\FolderPicker.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\GroupBox.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Highlight.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\HorizontalScrollBar.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\HorizontalSlider.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\HSVColorPicker.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\ImagePanel.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Label.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\LabelClickable.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\ListBox.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Menu.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\MenuItem.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\MenuStrip.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Modal.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\NumericUpDown.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\PageControl.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\ProgressBar.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Properties.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\PropertyTree.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\RadioButton.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\RadioButtonController.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Rectangle.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\ResizableControl.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Resizer.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\RichLabel.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\ScrollBar.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\ScrollBarBar.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\ScrollBarButton.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\ScrollControl.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Slider.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\SplitterBar.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Splitters.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\StatusBar.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\TabButton.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\TabControl.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\TabStrip.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\TabTitleBar.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Text.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\TextBox.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\ToolBar.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\TreeControl.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\TreeNode.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\VerticalScrollBar.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\VerticalSlider.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\WindowButtons.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\WindowCanvas.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\WindowControl.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Dialogs\FileOpen.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Dialogs\FileSave.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Dialogs\FolderOpen.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Dialogs\Query.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Layout\Position.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Layout\Table.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Layout\Tile.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Property\BaseProperty.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Property\Checkbox.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Property\ColorSelector.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Property\ComboBox.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Property\File.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Property\Folder.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Controls\Property\Text.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Controls\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Skins\Simple.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Skins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Skins\TexturedBase.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Skins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Skins\Texturing.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Skins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Util\ControlFactory.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\Util\ImportExport.h">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\include\Gwen\Util</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Anim.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\BaseRender.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\ControlList.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\DragAndDrop.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\events.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Gwen.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Hook.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\inputhandler.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Skin.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\ToolTip.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Utility.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Base.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Button.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Canvas.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\CheckBox.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\CollapsibleCategory.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\ColorControls.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\ColorPicker.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\ComboBox.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\CrossSplitter.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\DockBase.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\DockedTabControl.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Dragger.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\GroupBox.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\HorizontalScrollBar.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\HorizontalSlider.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\HSVColorPicker.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\ImagePanel.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Label.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\LabelClickable.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\ListBox.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Menu.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\MenuItem.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\MenuStrip.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\NumericUpDown.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\PageControl.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\ProgressBar.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Properties.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\PropertyTree.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\RadioButton.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\RadioButtonController.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Rectangle.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\ResizableControl.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Resizer.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\RichLabel.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\ScrollBar.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\ScrollBarBar.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\ScrollBarButton.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\ScrollControl.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Slider.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\SplitterBar.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\TabButton.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\TabControl.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\TabStrip.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Text.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\TextBox.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\TextBoxNumeric.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\TreeControl.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\TreeNode.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\VerticalScrollBar.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\VerticalSlider.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\WindowCanvas.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\WindowControl.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Dialog\FileOpen.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Dialog\FileSave.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Dialog\FolderOpen.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Dialog\Query.cpp">
+      <Filter>Blocks\Gwen\lib\gwen\gwen\src\Controls\Dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

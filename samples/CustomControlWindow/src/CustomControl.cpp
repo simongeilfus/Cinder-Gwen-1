@@ -2,6 +2,7 @@
 #include "CustomControl.h"
 #include "cinder/gl/gl.h"
 #include "cinder/Utilities.h"
+#include "cinder/app/App.h"
 
 #include "cigwen/CinderGwen.h"
 
@@ -11,6 +12,11 @@ using namespace ci;
 CustomControl::CustomControl( Gwen::Controls::Base *parent )
 : Controls::Base( parent, "cigwen sample CustomControl" )
 {}
+
+CustomControl::~CustomControl()
+{
+	app::console() << "CustomControl destroyed." << std::endl;
+}
 
 void CustomControl::Render( Skin::Base* skin )
 {
