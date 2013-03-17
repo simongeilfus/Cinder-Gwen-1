@@ -7,6 +7,7 @@
 #include "cinder/CinderMath.h"
 #include "cinder/gl/gl.h"
 #include "cinder/gl/Texture.h"
+#include "cinder/ImageIo.h"
 #include "cinder/app/App.h"
 #include "cinder/Utilities.h"
 
@@ -19,19 +20,17 @@ using namespace ci;
 
 namespace cigwen {
 
-	GwenRendererGl::GwenRendererGl()
-	{
+	// TODO: round should be in CinderMath, for both float and double
+	inline float roundFloat(float x) { return ( x - math<float>::floor( x ) ) > 0.5f ?  math<float>::ceil( x ) :  math<float>::floor( x ); } 
 
-	}
+	GwenRendererGl::GwenRendererGl()
+	{}
 
 	GwenRendererGl::~GwenRendererGl()
-	{
-
-	}
+	{}
 
 	void GwenRendererGl::Init()
-	{
-	}
+	{}
 
 	void GwenRendererGl::Begin()
 	{
@@ -192,7 +191,7 @@ namespace cigwen {
 	gl::TextureFontRef GwenRendererGl::getTextureFont( Gwen::Font* font )
 	{
 		std::string name = Gwen::Utility::UnicodeToString( font->facename );
-		int size = static_cast<int>( roundf( font->size ) );
+		int size = static_cast<int>( roundFloat( font->size ) );
 		std::string fontKey =  name + std::string( "-" ) + ci::toString( size );
 		auto fontIt = mFontMap.find( fontKey );
 		if( fontIt == mFontMap.end() ) {
