@@ -13,18 +13,20 @@ namespace cigwen {
 
 	class GwenInput {
 	public:
+		static GwenInputRef create( Gwen::Controls::Canvas *canvas )	{ return GwenInputRef( new GwenInput( canvas ) ); }
+		//! set the ammount to multiply the 'mouse wheel increment' by (default: 10)
+		void	setMouseWheelMultiplier( int m )	{ mMouseWheelMultiplier = m; }
+		int		getMouseWheelMultiplier() const		{ return mMouseWheelMultiplier; }
 
-		static GwenInputRef create( Gwen::Controls::Canvas *canvas ) { return GwenInputRef( new GwenInput( canvas ) ); }
-
+	protected:
+		// signal callbacks for ci::app events:
 		void mouseDown( ci::app::MouseEvent &event );
 		void mouseDrag( ci::app::MouseEvent &event );
 		void mouseUp( ci::app::MouseEvent &event );
 		void mouseMove( ci::app::MouseEvent &event );
 		void mouseWheel( ci::app::MouseEvent &event );
-
 		void keyDown( ci::app::KeyEvent &event );
 		void keyUp( ci::app::KeyEvent &event );
-
 		void resize();
 
 	protected:
@@ -34,6 +36,7 @@ namespace cigwen {
 
 		Gwen::Controls::Canvas *mCanvas;
 		ci::Vec2i mMousePos;
+		int mMouseWheelMultiplier;
 	};
 	
 } // namespace cigwen

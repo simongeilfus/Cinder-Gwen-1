@@ -9,7 +9,7 @@ using namespace ci;
 namespace cigwen {
 
 	GwenInput::GwenInput( Gwen::Controls::Canvas *canvas )
-	: mCanvas( canvas )
+	: mCanvas( canvas ), mMouseWheelMultiplier( 10 )
 	{
 		app::WindowRef window = app::getWindow();
 		window->connectMouseDown( &GwenInput::mouseDown, this );
@@ -50,7 +50,7 @@ namespace cigwen {
 
 	void GwenInput::mouseWheel( app::MouseEvent &event )
 	{
-		if( mCanvas->InputMouseWheel( event.getWheelIncrement() * 6 ) )
+		if( mCanvas->InputMouseWheel( event.getWheelIncrement() * mMouseWheelMultiplier ) )
 			event.setHandled();
 	}
 
