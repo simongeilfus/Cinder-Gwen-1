@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -106,6 +107,32 @@
     <ResourceCompile Include="Resources.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\Button.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\Checkbox.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\CollapsibleList.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\ColorPicker.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\ComboBox.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\CrossSplitter.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\GroupBox.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\ImagePanel.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\Label.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\LabelMultiline.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\ListBox.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\MenuStrip.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\Numeric.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\PageControl.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\ProgressBar.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\Properties.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\RadioButton.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\ScrollControl.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\Slider.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\StatusBar.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\TabControl.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\TextBox.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\TreeControl.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\UnitTest.cpp" />
+    <ClCompile Include="..\..\..\lib\gwen\gwen\UnitTest\Window.cpp" />
+    <ClCompile Include="..\..\..\src\cigwen\CinderGwen.cpp" />
     <ClCompile Include="..\src\GwenUnitTestApp.cpp" />
     <ClCompile Include="..\..\..\src\cigwen\GwenInput.cpp" />
     <ClCompile Include="..\..\..\src\cigwen\GwenRendererGl.cpp" />
@@ -178,6 +205,7 @@
     <ClCompile Include="..\..\..\lib\gwen\gwen\src\Controls\Dialog\Query.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\lib\gwen\gwen\include\Gwen\UnitTest\UnitTest.h" />
     <ClInclude Include="..\include\Resources.h" />
     <ClInclude Include="..\..\..\src\cigwen\CinderGwen.h" />
     <ClInclude Include="..\..\..\src\cigwen\GwenInput.h" />
