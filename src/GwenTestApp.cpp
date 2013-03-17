@@ -32,11 +32,10 @@ class GwenTestApp : public AppNative, public Gwen::Event::Handler {
 	void prepareSettings( Settings *settings );
 	void setup();
 	
-
 	void addUnitTest();
 	void addControls();
-	void openWindow();
-
+	void btn1Pressed();
+	void btn2Pressed();
 
 	void update();
 	void draw();
@@ -96,16 +95,21 @@ void GwenTestApp::addControls()
 	Gwen::Controls::Button *btn = new Gwen::Controls::Button( mCanvas );
 	btn->SetBounds( 200, 30, 80, 60 );
 	btn->SetText( "Click Me" );
-	btn->onPress.Add( this, &GwenTestApp::openWindow );
+	btn->onPress.Add( this, &GwenTestApp::btn1Pressed );
+	btn->AddAccelerator( "s" );
 
 
 	Gwen::Controls::Button *btn2 = new Gwen::Controls::Button( mCanvas );
 	btn2->SetBounds( 300, 30, 68, 68 );
 	btn2->SetImage( getAssetPath( "gwen64.png" ).c_str() );
+	btn2->onPress.Add( this, &GwenTestApp::btn2Pressed );
+	btn2->AddAccelerator( "Ctrl + a" );
 }
 
-void GwenTestApp::openWindow()
+void GwenTestApp::btn1Pressed()
 {
+	console() << "btn1 pressed" << endl;
+
 	auto window = new Gwen::Controls::WindowControl( mCanvas );
 	window->SetTitle( "This is CustomControl" );
 	window->SetSize( 400, 400 );
@@ -116,6 +120,11 @@ void GwenTestApp::openWindow()
 	auto control = new CustomControl( window );
 	control->SetPos( 0, 0 );
 	control->Dock( Gwen::Pos::Fill );
+}
+
+void GwenTestApp::btn2Pressed()
+{
+	console() << "btn2 pressed" << endl;
 }
 
 void GwenTestApp::update()
