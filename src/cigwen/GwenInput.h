@@ -30,6 +30,8 @@ namespace cigwen {
 	protected:
 		GwenInput( Gwen::Controls::Canvas *canvas );
 
+		int mapToGwen( const ci::app::KeyEvent &event ) const;
+
 		Gwen::Controls::Canvas *mCanvas;
 		ci::Vec2i mMousePos;
 	};
