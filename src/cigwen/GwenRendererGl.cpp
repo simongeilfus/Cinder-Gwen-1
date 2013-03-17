@@ -15,9 +15,6 @@
 #include "Gwen/Font.h"
 #include "Gwen/Texture.h"
 
-
-#define LOG_V std::cout << __PRETTY_FUNCTION__ << " | "
-
 using namespace ci;
 
 namespace cigwen {
@@ -108,7 +105,7 @@ namespace cigwen {
 			else if( ! app::getAssetPath( name ).empty() )
 				dataSource = app::loadAsset( name );
 			else {
-				LOG_V << "failed to load: " << name << std::endl;
+				app::console() << " GwenRendererGl::LoadTexture failed to load: " << name << std::endl;
 				tex->failed = true;
 				return;
 			}
@@ -201,11 +198,10 @@ namespace cigwen {
 		if( fontIt == mFontMap.end() ) {
 			try {
 				ci::Font cinderFont( name, size );
-				LOG_V << "creating font, fontKey: " << fontKey << " (count=" << mFontMap.size() << ")" << std::endl;
 				mFontMap.insert( std::make_pair( fontKey, gl::TextureFont::create( cinderFont ) ) );
 			}
 			catch( FontInvalidNameExc& exc ) {
-				app::console() << __PRETTY_FUNCTION__ << " | error, cannot find font named: " << name << ". replacing with system default." << std::endl;
+				app::console() << "GwenRendererGl::getTextureFont cannot find font named: " << name << ". replacing with system default." << std::endl;
 				mFontMap.insert( std::make_pair( fontKey, gl::TextureFont::create( ci::Font::getDefault() ) ) );
 			}
 		}
