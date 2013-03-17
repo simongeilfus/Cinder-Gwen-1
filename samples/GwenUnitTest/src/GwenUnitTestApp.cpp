@@ -21,9 +21,8 @@ class GwenUnitTestApp : public AppNative {
 
 private:
 	cigwen::GwenRendererGl *mRenderer;
-
-	Gwen::Controls::Canvas *mCanvas;
 	cigwen::GwenInputRef mGwenInput;
+	Gwen::Controls::Canvas *mCanvas;
 };
 
 void GwenUnitTestApp::prepareSettings( Settings *settings )
