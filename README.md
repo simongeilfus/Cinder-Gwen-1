@@ -16,6 +16,14 @@ The `--recursive` is to pull down the gwen git repo as well, since it is referen
 
 Currently requires [cinder](https://github.com/reakinator/Cinder) from source, with the latest dev branch (currently at 746dcefbe).  The samples expect this repo to be within the cinder/blocks folder, and if it is there, you can use tinderbox to automatically add Gwen and it's cinder implementation to your project.
 
+#### Note: Windows Users
+
+There is newly introduced a bug in [Gwen/Utility.cpp](Utility.cpp), where `va_copy` is not defined.  The solution I've been using is [here](https://github.com/garrynewman/GWEN/issues/44); add this to Utility.cpp, line 25 (in the #ifdef _MSC_VER block):
+
+```
+#define va_copy(d,s) ((d) = (s))
+```
+
 ### File issues please
 
 I'm still working on how best to package this, so let me know what you think.  Please file issues as they come up, or better yet the beloved pull requests. Thanks!
