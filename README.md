@@ -14,7 +14,7 @@ git clone --recursive git://github.com/reakinator/Cinder-Gwen.git $CINDER_PATH/b
 
 The `--recursive` is to pull down the gwen git repo as well, since it is referenced as a submodule. 
 
-Currently requires [cinder](https://github.com/reakinator/Cinder) from source, with the latest dev branch (currently at 746dcefbe).  The samples expect this repo to be within the cinder/blocks folder, and if it is there, you can use tinderbox to automatically add Gwen and it's cinder implementation to your project.
+Currently requires [cinder](https://github.com/cinder/Cinder) from github source, with the latest dev branch (currently at 746dcefbe).  The samples expect this repo to be within the cinder/blocks folder, and if it is there, you can use tinderbox to automatically add Gwen and it's cinder implementation to your project.
 
 #### Note: Windows Users
 
