@@ -16,7 +16,8 @@ lib/cinder*.lib
 *.ncb
 *.sdf
 *.opensdf
-*.vcxproj.filters
+*.filters
 Debug/
 Release/
 ipch/
+Thumbs.db
