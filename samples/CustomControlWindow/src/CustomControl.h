@@ -13,6 +13,10 @@ public:
 	virtual void RenderUnder( Gwen::Skin::Base* skin );
 
 private:
+
+	void draw2d();
+	void draw3d();
+
 	ci::Matrix44f		mCubeRotation;
 	ci::CameraPersp		mCamera;
 };
