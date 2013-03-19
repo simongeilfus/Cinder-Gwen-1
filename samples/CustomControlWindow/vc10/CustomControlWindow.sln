@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C++ Express 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomControlWindow", "CustomControlWindow.vcxproj", "{BE12D104-525E-400C-81EE-73564DDDDFBC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomControlWindow", "CustomControlWindow.vcxproj", "{3F0F9806-047F-49E5-8126-50FA483D84A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,10 +8,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BE12D104-525E-400C-81EE-73564DDDDFBC}.Debug|Win32.ActiveCfg = Debug|Win32
-		{BE12D104-525E-400C-81EE-73564DDDDFBC}.Debug|Win32.Build.0 = Debug|Win32
-		{BE12D104-525E-400C-81EE-73564DDDDFBC}.Release|Win32.ActiveCfg = Release|Win32
-		{BE12D104-525E-400C-81EE-73564DDDDFBC}.Release|Win32.Build.0 = Release|Win32
+		{3F0F9806-047F-49E5-8126-50FA483D84A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F0F9806-047F-49E5-8126-50FA483D84A0}.Debug|Win32.Build.0 = Debug|Win32
+		{3F0F9806-047F-49E5-8126-50FA483D84A0}.Release|Win32.ActiveCfg = Release|Win32
+		{3F0F9806-047F-49E5-8126-50FA483D84A0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

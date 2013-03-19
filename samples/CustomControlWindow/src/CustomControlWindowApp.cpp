@@ -78,7 +78,8 @@ void CustomControlWindowApp::addControls()
 void CustomControlWindowApp::buttonPressed()
 {
 	// FIXME: crash on windows..
-	console() << "btn pressed" << endl;
+	//console() << "btn pressed" << endl;
+	//return;
 
 	auto window = new Gwen::Controls::WindowControl( mCanvas );
 	window->SetTitle( "This is CustomControl" );
